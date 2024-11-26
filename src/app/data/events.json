@@ -1,0 +1,50 @@
+{
+    "halls": [
+      {
+        "id": "hall1",
+        "name": "Main Theatre Hall",
+        "events": [
+          {
+            "id": "event1",
+            "title": "Sonic 3",
+            "date": "2024-12-15",
+            "time": "19:00",
+            "seats": {
+              "total": 100,
+              "available": 100,
+              "layout": [
+                {"row": "A", "seats": 10},
+                {"row": "B", "seats": 10},
+                {"row": "C", "seats": 10},
+                {"row": "D", "seats": 10},
+                {"row": "E", "seats": 10}
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "hall2", 
+        "name": "Theatre 2",
+        "events": [
+          {
+            "id": "event2",
+            "title": "Moana 2",
+            "date": "2024-12-16", 
+            "time": "20:00",
+            "seats": {
+              "total": 50,
+              "available": 50,
+              "layout": [
+                {"row": "A", "seats": 5},
+                {"row": "B", "seats": 5},
+                {"row": "C", "seats": 5},
+                {"row": "D", "seats": 5},
+                {"row": "E", "seats": 5}
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
